@@ -1,0 +1,25 @@
+---
+title: "DataClean Coursera Week 4 project"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Program description 
+
+To run the program "run_analysis.R", you must have data in Dataset folder.
+Dataset folder must be in you working directory.
+Dataset folder must contain train and test folders.
+
+## Variables description
+loading variables have the same name as the file without extension. 
+Ex: file X_test.txt is loaded into variable X_test
+
+Merged variables have the same name, without _test or _train
+Ex : X_test and X_train are merged into X
+
+Output dataset:
+- X and y : dataset for questions 1, 2, 3, 4
+- X_summarized : dataset for question 5
