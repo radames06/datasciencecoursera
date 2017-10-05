@@ -1,12 +1,3 @@
----
-title: "DataClean Coursera Week 4 project"
-output: html_document
----
-
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
-```
-
 ## Program description 
 
 To run the program "run_analysis.R", you must have data in Dataset folder.
